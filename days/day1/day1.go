@@ -4,7 +4,7 @@ import (
 	"strconv"
 )
 
-func Calibrate() int {
+func PartOne() int {
 	lowerLimit := []rune("0")[0]
 	upperLimit := []rune("9")[0]
 	var total int
@@ -36,7 +36,7 @@ func Calibrate() int {
 	return total
 }
 
-func CalibrateWithWords() int {
+func PartTwo() int {
 	lowerLimit := []rune("0")[0]
 	upperLimit := []rune("9")[0]
 	var total int

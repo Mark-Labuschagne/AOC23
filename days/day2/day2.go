@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func FindPossibleGames() int64 {
+func PartOne() int64 {
 	maxRedCubes := 12
 	maxGreenCubes := 13
 	maxBlueCubes := 14
@@ -64,7 +64,7 @@ func FindPossibleGames() int64 {
 	return possibleGamesCount
 }
 
-func MinimumNumberOfCubes() int64 {
+func PartTwo() int64 {
 	var sumCubes int64
 	for _, input := range inputData {
 		// game
